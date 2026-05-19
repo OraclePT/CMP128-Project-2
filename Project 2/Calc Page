@@ -1,0 +1,45 @@
+<head>
+        <title>Calculator</title>
+
+        <meta charset="UTF-8">
+
+        <meta name="Jayden Pinero" content="Calculator">
+
+        <link rel="styleSheet" href="./Calc CSS">
+
+        <script src="./Calc JS"></script>
+    </head>
+
+    <body>
+        <h1>Calculator</h1>
+
+        <br>
+        <br>
+        <br>
+
+        <section class="calcBox">
+            <p id="numDisplay"></p>
+            <button onclick="setOperation('+')" class="topRowCalcButton floatLeft">+</button>
+            <button onclick="setOperation('-')" class="topRowCalcButton floatLeft">-</button>
+            <button onclick="setOperation('*')" class="topRowCalcButton floatLeft">x</button>
+            <button onclick="setOperation('/')" class="topRowCalcButton floatLeft">÷</button>
+        
+            <button onclick="enterNum(7)" class="calcButton floatLeft">7</button>
+            <button onclick="enterNum(8)" class="calcButton floatLeft">8</button>
+            <button onclick="enterNum(9)" class="calcButton floatLeft">9</button>
+            
+            <button onclick="enterNum(4)" class="calcButton floatLeft clear">4</button>
+            <button onclick="enterNum(5)" class="calcButton floatLeft">5</button>
+            <button onclick="enterNum(6)" class="calcButton floatLeft">6</button>
+            
+            <button onclick="enterNum(1)" class="calcButton floatLeft clear">1</button>
+            <button onclick="enterNum(2)" class="calcButton floatLeft">2</button>
+            <button onclick="enterNum(3)" class="calcButton floatLeft">3</button>
+            
+            <button onclick="enterNum(0)" class="calcButton floatLeft clear">0</button>
+            <button onclick="enterNum('.')" class="calcButton floatLeft">.</button>
+            <button onclick="clearCalc()" class="calcButton floatLeft">C</button>
+            
+            <button onclick="compute()" class="calcEqualsButton">=</button>
+        </section>
+    </body>
